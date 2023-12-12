@@ -15,7 +15,7 @@ jobs:
 
       - name: Sync Changes
         run: |
-          git remote add upstream https://github.com/assurdly/Suretree_Staging_Customer
+          git remote add upstream https://github.com/assurdly/Suretree_Staging_and_Live_Customer.git
           git fetch upstream
           git checkout gh-pages
           git merge upstream/gh-pages
