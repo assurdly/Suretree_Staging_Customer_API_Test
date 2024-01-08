@@ -1,0 +1,6 @@
+{
+    "Email": "adiberichard12@gmail.com",
+    "Password": "Adiberichard@12",
+    "UniqueIDFromFrontEnd": "6d7d59f4981e1f0e6ea-6652b784583101ece4e-969a350d8b9c5127211-041c9f831f734c7e6e-90fba3c8bb874a57f",
+    "IpAddress": "102.89.40.138"
+}

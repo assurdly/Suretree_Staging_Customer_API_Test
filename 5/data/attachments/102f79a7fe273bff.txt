@@ -1,0 +1,11 @@
+{
+    "SavedApplicationId":"",
+"CustomerId":"fedbfbfd-6178-4178-b022-2331631d3a23",
+"CustomerDescription":"adelowo",
+"ApplicationJsonPayload":" ",
+"CurrentStep":1,
+"IsApplied":false,
+"ProductType":"facda526-7d87-4529-a67b-0ca06fdea38d",
+"email":"adelowo.mi@gmail.com"
+
+}
