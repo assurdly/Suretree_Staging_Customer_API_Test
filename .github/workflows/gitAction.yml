@@ -22,8 +22,8 @@ jobs:
         if: always()
         continue-on-error: true
         run: |
-           newman run Staging_Customer_Postman_Collections/Staging_API_Collection.json -e "Staging-NairaCompare_postman_environment.json" --reporters cli,allure
-           echo "Admin API Postman tests run."
+           newman run Staging_Customer_Collections/Staging_API_Collection.json -e "Staging_NairaCompare_postman_environment.json" --reporters cli,allure
+           echo "Customer StagingAPI Postman tests run."
 
           
           
