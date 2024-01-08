@@ -1,0 +1,16 @@
+
+{
+    "PageNumber": 1,
+    "RowsPerPage": 999999999,
+    "SearchText": "",
+    "FromDateCreated": null,
+    "ToDateCreated": null,
+    "SortBy": "DateCreated",
+    "SortOrder": "desc",
+    "CategoryUrlSlug": [
+        0,
+        "personal-savings-account",
+        "children-savings-account",
+        "fixed-deposit-account"
+    ]
+}
