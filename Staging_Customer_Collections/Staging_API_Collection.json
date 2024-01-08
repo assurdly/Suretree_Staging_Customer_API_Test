@@ -9,7 +9,7 @@
 			"name": "Auth",
 			"item": [
 				{
-					"name": "Auth - Non-existing Email",
+					"name": "Auth - Email does not exist",
 					"event": [
 						{
 							"listen": "test",
