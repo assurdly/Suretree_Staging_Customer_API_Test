@@ -1,0 +1,81 @@
+{
+    "businessLoanCollateral": [],
+    "businessLoanApplicationDetail": {
+        "purposeOfLoan": "Agriculture",
+        "isCollateralAvailablle": "false",
+        "govtMeansOfIdentification": 13,
+        "isCacRegistered": "false",
+        "businessType": 22,
+        "registeredAddress": "67 Yimmu street",
+        "operatingAddressIsSame": "true",
+        "sector": 28,
+        "natureOfBusiness": "",
+        "businessTelephoneNo": "+2347043989871",
+        "emailAddress": "hoyt.christiansen@tafmail.com",
+        "noOfEmployees": 47,
+        "averagemonthlyTurnover": "1000000",
+        "averageMonthlyExpenses": "200000",
+        "averageMonthlyPayroll": "200000",
+        "obtainAnyLoanIn3Years": "false",
+        "govtMeansOfIdentificationFileSystemId": "56586a55-c417-46b9-b1a1-34d84573c1a4",
+        "registeredName": "",
+        "registrationNumber": "",
+        "registrationDate": ""
+    },
+    "businessLoanGuarantor": {
+        "title": 55,
+        "firstName": "Simon",
+        "lastName": "Peters",
+        "phone": "+2347054098765",
+        "email": "simonpeters@yopmail.com"
+    },
+    "personalDetail": {
+        "title": "Mr",
+        "firstName": "Araceli",
+        "lastName": "Mills",
+        "gender": "Male",
+        "dob": "2024-01-16T00:00:00",
+        "emailAddress": "hoyt.christiansen@tafmail.com",
+        "phoneNumber": "+2347011725297",
+        "maritalStatusId": 16,
+        "contactAddress1": "Ago Palace Way",
+        "contactAddress2": "Augusta",
+        "residenceCountryId": "46909ea8-06cf-47a9-9cd5-dc8b169ed067",
+        "countryStateId": "075ed228-38bf-4ef5-a377-9909a683ea61",
+        "city": "Festac                                            ",
+        "education": 59
+    },
+    "businessLoanDirector": [],
+    "businessLoanShareholders": [],
+    "existingLoan": [],
+    "businessLoanBankAccount": [
+        {
+            "nameOfBank": "000a4605-a61f-40f9-a391-550bb916ceb5",
+            "accountNumber": "0248219856",
+            "accountName": "Adibe Richard",
+            "isAuditedFinancialStatementAvailable": "false"
+        }
+    ],
+    "additionaFields": {},
+    "designationId": 8,
+    "bankVerificationNumber": "5557890898",
+    "signatureValue": "5f8ded17-7373-4e68-96e7-998512704c82",
+    "signatureType": "Upload Signature",
+    "productId": "0719225a-0487-4da1-af5c-1ccb5a584117",
+    "providerId": "eb0d1c8d-0877-46a3-ac53-e781fbd3e3b5",
+    "additionalAppDetails": "{\"productName\":\"Sme Capital\",\"productSeoMetaTagUrlSlug\":\"acb-business-sme-capital\",\"providerName\":\"Accion Microfinance Bank Limited\",\"providerSeoMetaTagUrlSlug\":\"accion-microfinance-bank-limited\",\"categorySlug\":\"sme-business-loans\",\"categoryId\":\"44981E1D-CF61-40D4-8FC4-DC55EC6BEF70\",\"minAmount\":50000,\"maxAmount\":1000000,\"minDuration\":1,\"maxDuration\":6,\"rate\":6,\"providerFileSystemID\":\"35825ed8-e3f0-4297-a4b1-85ee03aad0eb\",\"savedSavingsApplicationId\":\"\",\"repaymentFrequency\":\"Monthly\"}",
+    "LoanAmount": "100,0000",
+    "Duration": "6",
+    "otherDesignation": "",
+    "loanAmount": "100,0000",
+    "duration": "6",
+    "SupportingDocuments": {
+        "utilityBillFileSystemId": "db8ce6db-d740-4cfe-933e-7174c32c8d31",
+        "boardResolutionFileSystemId": "030dc679-18ef-4371-8d31-39f936e6cf4a",
+        "companyProfileFileSystemId": "47e7a630-0072-42ce-ad90-e6578d887afd",
+        "cashflowForecastFileSystemId": "67d8ec7b-39ba-4e89-b4bc-6def1a717ca9",
+        "twelveMonthsBankStatementFileSystemId": "c7254b44-b8ff-4d84-bdf7-00cbbcbabfe6",
+        "collateralUploadFileSystemId": "fe23fa5a-a915-420e-8b2c-28ddc3ae3085"
+    },
+    "categoryUrlSlug": "sme-business-loans"
+}

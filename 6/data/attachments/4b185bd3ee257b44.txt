@@ -1,0 +1,7 @@
+{
+  "queryString": "",
+  "rowsPerPage": 4,
+  "pageNumber": 1,
+  "total": 10,
+  "totalPages": 3
+}
