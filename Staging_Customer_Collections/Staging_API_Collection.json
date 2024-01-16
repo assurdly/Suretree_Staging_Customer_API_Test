@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "3f8199e7-dac8-4275-9fa0-3ab721b3c702",
-		"name": "Staging APIs QA",
+		"name": "Staging AdminConsole APIs QA",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
