@@ -1,0 +1,1 @@
+{"isSuccess":false,"message":"Validation Failed","data":null,"errors":["BVN is required"],"statusCode":0}

@@ -1,0 +1,10 @@
+{
+    "SavedApplicationId": "e7a671d9-f265-409f-ae2c-e8372dec14c0",
+    "CustomerId": "",
+    "CustomerDescription": "geraldtesting123@mailinator.com-Investment-draft",
+    "ApplicationJsonPayload": "{\"application\":{\"ProductId\":\"e6433ad5-c029-4700-ad0f-dfb439489f21\",\"CategoryId\":\"facda526-7d87-4529-a67b-0ca06fdea38d\",\"Amount\":\"100000\",\"Duration\":3,\"CampaignId\":\"\",\"SavedApplicationId\":\"e7a671d9-f265-409f-ae2c-e8372dec14c0\"},\"nextOfKin\":{},\"personalDetail\":{\"title\":\"Mr\",\"firstName\":\"Gerald\",\"middleName\":\"\",\"lastName\":\"Testing\",\"emailAddress\":\"geraldtesting123@mailinator.com\",\"phoneNumber\":\"+2349054321234\",\"maritalStatusId\":149,\"gender\":\"male\",\"dob\":\"2000-06-05T23:00:00.000Z\",\"isCloseRelativesPep\":false,\"pepDetails\":null,\"passportPictureFileSystemId\":\"af4a366f-42b7-4a06-9d5b-cce0ebc7e874\",\"personalDetailIdtype\":12,\"personalDetailIdtypeFileSystemId\":\"a076b52e-4d2f-4817-94ba-710b8e296d44\",\"relationshipWithChild\":null,\"isSubscribedToNewsLetter\":false},\"additionalFields\":{\"personalDetails\":{\"c687d0e9-a07c-486a-a2d7-9593ca4dc1f4\":{\"January\":null,\"February\":null,\"March\":true}}},\"productProviderDetails\":\"{\\\"productName\\\":\\\"Investment\\\",\\\"productSeoMetaTagUrlSlug\\\":\\\"fast-investment\\\",\\\"providerName\\\":\\\"Fast Credit Limited\\\",\\\"providerSeoMetaTagUrlSlug\\\":\\\"fast-credit-limited\\\",\\\"categorySlug\\\":\\\"fixed-deposit-account\\\",\\\"minAmount\\\":100000,\\\"maxAmount\\\":5000000,\\\"minDuration\\\":3,\\\"maxDuration\\\":12,\\\"minRate\\\":1,\\\"maxRate\\\":1,\\\"providerFileSystemID\\\":\\\"7bda9a50-53bb-448c-ae13-7203e21eba30\\\",\\\"savedSavingsApplicationId\\\":\\\"\\\"}\",\"depositAmount\":\"100000\",\"durationOfSavings\":3}",
+    "CurrentStep": 1,
+    "IsApplied": false,
+    "ProductType": "facda526-7d87-4529-a67b-0ca06fdea38d",
+    "email": "geraldtesting123@mailinator.com"
+}
