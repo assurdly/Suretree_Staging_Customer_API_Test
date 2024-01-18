@@ -7225,7 +7225,7 @@
 									"});\r",
 									"pm.test(\"Verify that ErrorMessage to include invalid request\", function () {\r",
 									"    var jsonData = pm.response.json();\r",
-									"    pm.expect(jsonData.ErrorMessage).to.eql(\"Invalid request, please confirm that you have the correct Email.\");\r",
+									"    pm.expect(jsonData.ErrorMessage).to.eql(\"Oops, email does not exist.\");\r",
 									"});\r",
 									"pm.test(\"Verify that ResponseCode returns 400\", function () {\r",
 									"    var jsonData = pm.response.json();\r",
