@@ -1,0 +1,51 @@
+{
+    "personalDetails": {
+        "title": "Miss",
+        "firstName": " ",
+        "middleName": "Test",
+        "lastName": "Dee",
+        "emailAddress": "minnie@getnada.com",
+        "phoneNumber": "+2347011725297",
+        "maritalStatusId": 106,
+        "gender": "female",
+        "dob": "1990-03-03T23:00:00.000Z",
+        "passportPictureFileSystemId": "51e2e320-035d-4a33-8d93-2c5abcd1b036",
+        "personalDetailIdtype": 12,
+        "personalDetailIdtypeFileSystemId": "4a6ef097-0529-4183-9be1-7a7f1a45a214"
+    },
+    "homeAddressDetails": {
+        "areYouNigerian": true,
+        "nigerianAddressAddress1": "11 Test Str",
+        "nigerianAddressAddress2": "11 Test Str",
+        "nigerianAddressCountryOfResidenceId": "46909ea8-06cf-47a9-9cd5-dc8b169ed067",
+        "nigerianAddressState": "075ed228-38bf-4ef5-a377-9909a683ea72",
+        "nigerianAddressLga": "74BDE838-5358-402C-B492-E894E63A989A",
+        "nigerianAddressTownCity": "Test",
+        "nigerianAddressProofOfAddressFileSystemId": "4449007d-ca6d-4f4f-856a-5d5474a9dd58",
+        "ecowasregionAddress1": "",
+        "ecowasregionAddress2": "",
+        "ecowasregionCountryOfResidenceId": null,
+        "ecowasregionState": null,
+        "ecowasregionLga": null,
+        "ecowasregionTownCity": "",
+        "ecowasregionBiodataFileSystemId": "",
+        "ecowasregionProofOfAddressFileSystemId": "",
+        "ecowasregionWorkPermitBiodataSystemId": ""
+        },
+    "bankAccountDetails": {
+        "customerVerificationNumber": "55541325678",
+        "accountNumber": "16235680079",
+        "bankId": "61da6bb6-8a12-4b1f-9d5f-ee96eec8ebea",
+        "accountName": "Minnie Dee"
+        },
+    "additionaFields": {
+        "personalDetails": {
+            "f71bc3ed-314e-4b92-8081-c550a95bd1fa": "tutu"
+        }
+    },
+    "depositAmount": "100000",
+    "durationOfSavings": 1,
+    "productId": "aac5cc37-ca55-4411-9833-0198b9a81c27",
+    "categoryId": "4d6e702c-7654-4e9a-b8b9-2b44cabf6476",
+    "userConsent": true
+}
