@@ -1,0 +1,8 @@
+{
+  "firstName": "Hello",
+  "lastName": "There",
+  "Email": "",
+  "oAuth": "whatisthis",
+  "uniqueIDFromFrontEnd": "232",
+  "ipAddress": "203.88.135.62"
+}
