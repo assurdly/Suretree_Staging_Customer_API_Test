@@ -1,0 +1,9 @@
+{
+    "FirstName": "Bernie",
+    "LastName": "Steuber",
+    "EmailAddress": "Jermey@tafmail.com",
+    "PhoneNumber": "+2347037233647",
+    "Password": "Suretree@1",
+    "RetypePassword": "Suretree@1",
+    "Title": "https://app.nairacompare.ng"
+}
