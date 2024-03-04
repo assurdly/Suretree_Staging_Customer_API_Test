@@ -1,0 +1,6 @@
+{
+    "Email": "Claud.Boyle@tafmail.com",
+    "Password": "Assurdly01!",
+    "UniqueIDFromFrontEnd": "56106ab0eff8471d86e-eb25f9e39aaddfd7731-da55d256deeadcad6d9-d9359c24215e12bac2-78b84a319d42d7938",
+    "IpAddress": "102.89.46.131"
+}
