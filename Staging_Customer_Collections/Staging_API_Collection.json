@@ -13914,10 +13914,19 @@
 								"token": "{{Auth_token}}"
 							}
 						},
-						"method": "GET",
+						"method": "POST",
 						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"bankCode\": \"033\",\n    \"accountNumber\": \"2059467029\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
 						"url": {
-							"raw": "{{baseUrl}}/api/v2/BankAccountDetailsComponent/account-number-validation?accountNumber=9033362914&bankCode=214",
+							"raw": "{{baseUrl}}/api/v2/BankAccountDetailsComponent/account-number-validation",
 							"host": [
 								"{{baseUrl}}"
 							],
@@ -13930,11 +13939,13 @@
 							"query": [
 								{
 									"key": "accountNumber",
-									"value": "9033362914"
+									"value": "9033362914",
+									"disabled": true
 								},
 								{
 									"key": "bankCode",
-									"value": "214"
+									"value": "214",
+									"disabled": true
 								}
 							]
 						}
