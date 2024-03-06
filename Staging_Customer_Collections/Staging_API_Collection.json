@@ -13918,7 +13918,7 @@
 					"response": []
 				},
 				{
-					"name": "Invalid bankCode: Account number Validation Copy",
+					"name": "Invalid bankCode: Account number Validation",
 					"id": "942193d0-5835-44b0-87b5-e7589f60efb2",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -13930,7 +13930,7 @@
 								"token": "{{Auth_token}}"
 							}
 						},
-						"method": "GET",
+						"method": "POST",
 						"header": [],
 						"body": {
 							"mode": "raw",
@@ -13946,7 +13946,7 @@
 					"response": []
 				},
 				{
-					"name": "Empty bankCode: Account number Validation Copy 2",
+					"name": "Empty bankCode: Account number Validation",
 					"id": "460e58f9-6d52-400e-aae6-064dbfe0ef15",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -13958,7 +13958,7 @@
 								"token": "{{Auth_token}}"
 							}
 						},
-						"method": "GET",
+						"method": "POST",
 						"header": [],
 						"body": {
 							"mode": "raw",
@@ -13992,7 +13992,7 @@
 					"response": []
 				},
 				{
-					"name": "Empty accountNumber: Account number Validation Copy 3",
+					"name": "Empty accountNumber: Account number Validation",
 					"id": "a5b0ef38-c21f-42d0-9d43-3f5ed7d5920f",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -14004,7 +14004,7 @@
 								"token": "{{Auth_token}}"
 							}
 						},
-						"method": "GET",
+						"method": "POST",
 						"header": [],
 						"body": {
 							"mode": "raw",
