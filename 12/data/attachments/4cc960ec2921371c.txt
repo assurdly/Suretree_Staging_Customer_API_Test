@@ -1,0 +1,96 @@
+{
+    "businessLoanCollateral": [],
+    "businessLoanApplicationDetail": {
+        "averagemonthlyTurnover": "2000000",
+        "averageMonthlyExpenses": "500000",
+        "averageMonthlyPayroll": "200000",
+        "purposeOfLoan": "Fish Farming",
+        "isCollateralAvailablle": "false",
+        "govtMeansOfIdentification": 13,
+        "isCacRegistered": "false",
+        "businessType": 22,
+        "noOfEmployees": 48,
+        "registeredAddress": "56 Olawale steet",
+        "operatingAddressIsSame": "true",
+        "operatingAddress": "56 Olawale steet",
+        "sector": 24,
+        "natureOfBusiness": "",
+        "businessTelephoneNo": "+2349055489765",
+        "emailAddress": "fishfarming76@yopmail.com",
+        "obtainAnyLoanIn3Years": "false",
+        "govtMeansOfIdentificationFileSystemId": "3966cb07-aff5-42fa-b6a3-ed33980b2f84",
+        "registeredName": "",
+        "registrationNumber": "",
+        "registrationDate": ""
+    },
+    "businessLoanGuarantor": {
+        "title": 55,
+        "firstName": "Demier",
+        "lastName": "Timothy",
+        "phone": "+2348065986535",
+        "email": "demiertimothy@yopmail.com"
+    },
+    "personalDetail": {
+        "title": "Mr",
+        "firstName": "Richard",
+        "lastName": "Adibe",
+        "middleName": null,
+        "gender": "male",
+        "dob": "1991-06-19T00:00:00",
+        "emailAddress": "adiberichard12@gmail.com",
+        "phoneNumber": "+2348066923517]",
+        "maritalStatusId": 16,
+        "contactAddress1": "1",
+        "contactAddress2": "Ago Palace Way",
+        "residenceCountryId": "46909ea8-06cf-47a9-9cd5-dc8b169ed067",
+        "countryStateId": "075ed228-38bf-4ef5-a377-9909a683ea84",
+        "city": "Isolo                                             "
+    },
+    "businessLoanDirector": [
+        {
+            "title": 56,
+            "firstName": "Deborah",
+            "lastName": "Anthony",
+            "residentialAddress": "54 gregory street",
+            "emailAddress": "deborahanthony@yopmail.com",
+            "telephone": "+2349054987634",
+            "governmentApprovedMeansOfIdentification": 13,
+            "bvn": 55598564328,
+            "boardResolution": "7a020ea7-287f-41a8-9fc8-bd21fbf3f0f0",
+            "resume": "7b325bcf-983e-443c-b5b0-1beb765fbd3f"
+        }
+    ],
+    "businessLoanShareholders": [
+        {
+            "title": 55,
+            "firstName": "Frog",
+            "lastName": "Stone",
+            "residentialAddress": "65 Obirikwere street",
+            "telephone": "+2348054098765",
+            "email": "frogstone@yopmail.com",
+            "bvn": 55598432109,
+            "resume": "5be08120-8326-48ca-9345-733afc4c4470"
+        }
+    ],
+    "existingLoan": [],
+    "businessLoanBankAccount": [
+        {
+            "nameOfBank": "100a7d07-bf3a-458c-8951-faf6f3bd3cec",
+            "accountNumber": "0467987654",
+            "accountName": "Deby Solar",
+            "isAuditedFinancialStatementAvailable": "false"
+        }
+    ],
+    "additionaFields": {},
+    "designationId": 8,
+    "bankVerificationNumber": "",
+    "productId": "b67d0960-fe05-48c6-b632-405ecf5924e9",
+    "providerId": "585006ac-57cd-4cfa-8519-780e0b628476",
+    "LoanAmount": 100000,
+    "Duration": 1,
+    "signatureValue": true,
+    "otherDesignation": "",
+    "loanAmount": 100000,
+    "duration": 1,
+    "signatureType": "Confirmation Checkbox"
+}
