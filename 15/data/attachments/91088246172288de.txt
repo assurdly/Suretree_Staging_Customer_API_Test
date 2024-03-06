@@ -1,0 +1,6 @@
+{
+    
+    "CustomerId": "5tftur7ubiowbybyg7878iihhiu",
+    "BVN": "22200021533"
+    
+}

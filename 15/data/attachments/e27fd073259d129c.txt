@@ -1,0 +1,17 @@
+{
+    "FirstName": "Lonnie",
+    "LastName": "Sipes",
+    "EmailAddress": "King.Corwin@tafmail.com",
+    "PhoneNumber": "+2347011725297",
+    "Password": "Assurdly01!",
+    "RetypePassword": "Assurdly01!",
+    "Title": "https://qa.nairacompare.ng"
+}
+
+
+
+
+
+
+
+

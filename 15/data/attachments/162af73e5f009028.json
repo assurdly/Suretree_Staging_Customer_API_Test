@@ -1,0 +1,8 @@
+{
+    "Transfer-Encoding": "chunked",
+    "Server": "Microsoft-IIS/10.0",
+    "Strict-Transport-Security": "max-age=2592000",
+    "WWW-Authenticate": "Bearer error=\"invalid_token\"",
+    "X-Powered-By": "ASP.NET",
+    "Date": "Wed, 06 Mar 2024 06:25:14 GMT"
+}

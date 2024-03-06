@@ -1,0 +1,1 @@
+{"successMessage":"Data retrieve successfully.","errorMessage":null,"responseCode":200,"total":0,"totalPages":0,"rowsPerPage":0,"pageItemsCount":0,"pageNumber":0,"queryString":"","list":[],"details":null}
