@@ -1,0 +1,69 @@
+{
+    "application": {
+        "ProductId": "e6433ad5-c029-4700-ad0f-dfb439489f21",
+        "CategoryId": "facda526-7d87-4529-a67b-0ca06fdea38d",
+        "Amount": "100000",
+        "Duration": 3,
+        "CampaignId": "",
+        "SavedApplicationId": "85bd455f-b9dd-4320-8bb0-ea451935003d"
+    },
+    "bankDetails": {
+        "customerVerificationNumber": "55578909876",
+        "sameAsFundSourceAccount": true,
+        "fundSourceAccountId": {
+            "bankAccountNumber": "9087654345",
+            "bankId": "84301808-725e-44c2-91ad-6275de541582",
+            "bankCode": "070010",
+            "bankAccountName": "Sarah Fedah",
+            "sourceOfFunds": 119
+        }
+    },
+    "nextOfKin": {
+        "firstName": "Jerry",
+        "lastName": "Terry",
+        "emailAddress": "jerryterry@yopmail.com",
+        "phoneNumber": "+2349055980987",
+        "relationship": 133,
+        "otherRelationship": null
+    },
+    "personalDetail": {
+        "title": "Mr",
+        "firstName": "Richard",
+        "middleName": "m",
+        "lastName": "Adibe",
+        "emailAddress": "Donny.Langworth25@gmail.com",
+        "phoneNumber": "+2348066923517",
+        "maritalStatusId": 149,
+        "gender": "male",
+        "dob": "1991-06-02T00:00:00",
+        "isCloseRelativesPep": false,
+        "pepDetails": null,
+        "passportPictureFileSystemId": "86ad5b85-777b-426a-a48f-361114844a4a",
+        "personalDetailIdtype": 12,
+        "personalDetailIdtypeFileSystemId": "c1a257c6-cba4-4993-a9c0-1e429aae426b",
+        "relationshipWithChild": null,
+        "isSubscribedToNewsLetter": true
+    },
+    "residentialDetails": {
+        "areYouNigerian": true,
+        "addressLine1": "65 freedah street",
+        "addressLine2": null,
+        "stateId": "075ed228-38bf-4ef5-a377-9909a683ea84",
+        "lgaId": "E59DE207-727B-4040-836B-1AB9B37A46B5",
+        "townCity": "Isolo",
+        "proofOfAddressFileSystemId": null,
+        "areYouEcowasregion": null,
+        "ecowasregionBiodataFileSystemId": null,
+        "ecowasregionWorkPermitBiodataSystemId": null,
+        "countryOfResidenceId": "46909ea8-06cf-47a9-9cd5-dc8b169ed067"
+    },
+    "additionalFields": {
+        "personalDetails": {
+            "c687d0e9-a07c-486a-a2d7-9593ca4dc1f4": {
+                "January": true,
+                "February": null,
+                "March": null
+            }
+        }
+    }
+}
