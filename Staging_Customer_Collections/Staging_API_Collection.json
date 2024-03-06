@@ -318,7 +318,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"Email\": //\"ogoogbuanu@gmail.com\",\n    \"adiberichard12@gmail.com\",\n    \"Password\": \"Suretree@1\",\n    \"UniqueIDFromFrontEnd\": \"e510cc98a302df862f3-0bd058d7bf7643928ae-184d73ba1f45fe8afc8-a36e3ec4f82a81867b-2056f9c8ccb8b4dd2\",\n    \"IpAddress\": \"102.89.47.85\"\n    \n}\n",
+							"raw": "{\n    \"Email\": //\"ogoogbuanu@gmail.com\",\n    \"minniebabe@mailinator.com\",\n    \"Password\": \"Assurdly01!\",\n    \"UniqueIDFromFrontEnd\": \"e510cc98a302df862f3-0bd058d7bf7643928ae-184d73ba1f45fe8afc8-a36e3ec4f82a81867b-2056f9c8ccb8b4dd2\",\n    \"IpAddress\": \"102.89.47.85\"\n    \n}\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -13804,6 +13804,265 @@
 				}
 			],
 			"id": "f7da87c2-c06c-483e-a0c1-0160d8fd4744"
+		},
+		{
+			"name": "Account number validation",
+			"item": [
+				{
+					"name": "Account number Validation",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "aacc6b53-46db-4fce-8495-ebe7cce6a897",
+								"exec": [
+									"",
+									"pm.test(\"Response status code is 200\", function () {",
+									"  pm.response.to.have.status(200);",
+									"});",
+									"",
+									"",
+									"pm.test(\"Account name is displayed\", function () {",
+									"    const responseData = pm.response.json();",
+									"    ",
+									"    pm.expect(responseData).to.be.an('object');",
+									"    pm.expect(responseData.data.accountName).to.be.a('string').and.to.have.lengthOf.at.least(1, \"Account name should not be empty\");",
+									"});",
+									"",
+									"",
+									"pm.test(\"Data object contains expected fields\", function () {",
+									"    const responseData = pm.response.json();",
+									"    ",
+									"    pm.expect(responseData.data).to.be.an('object');",
+									"    pm.expect(responseData.data).to.have.property('accountNumber');",
+									"    pm.expect(responseData.data).to.have.property('accountName');",
+									"});",
+									"",
+									"pm.test(\"Account number should be returned\", function () {",
+									"    const responseData = pm.response.json();",
+									"    ",
+									"    pm.expect(responseData).to.be.an('object');",
+									"    pm.expect(responseData.data.accountNumber).to.be.a('string').and.to.have.lengthOf.at.least(1, \"Account number should not be empty\");",
+									"});",
+									"pm.test(\"Verify that \\\"isSuccess\\\" is true\", function () {",
+									"    const responseData = pm.response.json();",
+									"    ",
+									"    pm.expect(responseData.isSuccess).to.be.true;",
+									"});",
+									"pm.test(\"Verify message is 'Account number resolved'\", function () {",
+									"     const responseData = pm.response.json();",
+									"    pm.expect(responseData.message).to.eql(\"Account number resolved\");",
+									"});",
+									"pm.test(\"Verify that 'errors' is null\", function () {",
+									"    const responseData = pm.response.json();",
+									"",
+									"    pm.expect(responseData.errors).to.equal(null);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"id": "58a57236-729f-4914-9d4c-f619e7dd4ef0",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{Auth_token}}"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v2/BankAccountDetailsComponent/account-number-validation?accountNumber=3107231019&bankCode=214",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v2",
+								"BankAccountDetailsComponent",
+								"account-number-validation"
+							],
+							"query": [
+								{
+									"key": "accountNumber",
+									"value": "3107231019"
+								},
+								{
+									"key": "bankCode",
+									"value": "214"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Invalid account number: Account number Validation",
+					"id": "0e01948a-fd05-45b8-a50a-40c7d33ac710",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{Auth_token}}"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v2/BankAccountDetailsComponent/account-number-validation?accountNumber=9033362914&bankCode=214",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v2",
+								"BankAccountDetailsComponent",
+								"account-number-validation"
+							],
+							"query": [
+								{
+									"key": "accountNumber",
+									"value": "9033362914"
+								},
+								{
+									"key": "bankCode",
+									"value": "214"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Invalid bankCode: Account number Validation Copy",
+					"id": "942193d0-5835-44b0-87b5-e7589f60efb2",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{Auth_token}}"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v2/BankAccountDetailsComponent/account-number-validation?accountNumber=3107231019&bankCode=215",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v2",
+								"BankAccountDetailsComponent",
+								"account-number-validation"
+							],
+							"query": [
+								{
+									"key": "accountNumber",
+									"value": "3107231019"
+								},
+								{
+									"key": "bankCode",
+									"value": "215"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Empty bankCode: Account number Validation Copy 2",
+					"id": "460e58f9-6d52-400e-aae6-064dbfe0ef15",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{Auth_token}}"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v2/BankAccountDetailsComponent/account-number-validation?accountNumber=3107231019&bankCode=",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v2",
+								"BankAccountDetailsComponent",
+								"account-number-validation"
+							],
+							"query": [
+								{
+									"key": "accountNumber",
+									"value": "3107231019"
+								},
+								{
+									"key": "bankCode",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Empty accountNumber: Account number Validation Copy 3",
+					"id": "a5b0ef38-c21f-42d0-9d43-3f5ed7d5920f",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{Auth_token}}"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v2/BankAccountDetailsComponent/account-number-validation?accountNumber=&bankCode=214",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v2",
+								"BankAccountDetailsComponent",
+								"account-number-validation"
+							],
+							"query": [
+								{
+									"key": "accountNumber",
+									"value": ""
+								},
+								{
+									"key": "bankCode",
+									"value": "214"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "2bab996b-9517-4a3a-8bf5-8b1e897765b2"
 		}
 	],
 	"event": [
