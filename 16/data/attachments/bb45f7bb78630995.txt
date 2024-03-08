@@ -1,0 +1,4 @@
+{
+    "bankCode": "",
+    "accountNumber": "2059467029"
+}

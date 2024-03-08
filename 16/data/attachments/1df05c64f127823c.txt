@@ -1,0 +1,6 @@
+{
+    "Email": "kenekizzy@yopmail.com",
+    "Password": "Ebubechukwu@2003",
+    "UniqueIDFromFrontEnd": "",
+    "IpAddress": "197.210.84.243"
+}
