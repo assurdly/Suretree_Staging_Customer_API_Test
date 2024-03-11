@@ -14057,6 +14057,326 @@
 				}
 			],
 			"id": "0b71541a-c36f-47d7-8eb6-d87d9463900e"
+		},
+		{
+			"name": "Customer Copy",
+			"item": [
+				{
+					"name": "Get Loan Product via ID",
+					"item": [
+						{
+							"name": "Get Loan Product via ID Copy",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "c8ecfdc9-f005-4c1d-a4f8-4bb53290ad98",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Status code name has string\", function () {",
+											"    pm.response.to.have.status(\"OK\");",
+											"});",
+											"pm.test(\"Your test successMessage\", function () {",
+											"    var jsonData = pm.response.json();",
+											"    pm.expect(jsonData.SuccessMessage).to.eql(null);",
+											"});",
+											"",
+											"pm.test(\"Your test errorMessage\", function () {",
+											"    var jsonData = pm.response.json();",
+											"    pm.expect(jsonData.ErrorMessage).to.eql(null);",
+											"});",
+											"",
+											"pm.test(\"Your test responseCode\", function () {",
+											"    var jsonData = pm.response.json();",
+											"    pm.expect(jsonData.ResponseCode).to.eql(200);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "prerequest",
+									"script": {
+										"id": "3806735b-918d-432f-8b9c-a01d6b2b25ad",
+										"exec": [],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"id": "10018575-54e4-45e5-9d81-b1b0edcc454b",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{Auth_token}}"
+									}
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"queryString\": \"\",\n  \"rowsPerPage\": 10,\n  \"pageNumber\": 1,\n  \"total\": 0,\n  \"totalPages\": 0\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/api/products/get-loan-products"
+							},
+							"response": []
+						},
+						{
+							"name": "Get Loan Product via ID Copy 2",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "c8ecfdc9-f005-4c1d-a4f8-4bb53290ad98",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Status code name has string\", function () {",
+											"    pm.response.to.have.status(\"OK\");",
+											"});",
+											"pm.test(\"Your test successMessage\", function () {",
+											"    var jsonData = pm.response.json();",
+											"    pm.expect(jsonData.SuccessMessage).to.eql(null);",
+											"});",
+											"",
+											"pm.test(\"Your test errorMessage\", function () {",
+											"    var jsonData = pm.response.json();",
+											"    pm.expect(jsonData.ErrorMessage).to.eql(null);",
+											"});",
+											"",
+											"pm.test(\"Your test responseCode\", function () {",
+											"    var jsonData = pm.response.json();",
+											"    pm.expect(jsonData.ResponseCode).to.eql(200);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "prerequest",
+									"script": {
+										"id": "3806735b-918d-432f-8b9c-a01d6b2b25ad",
+										"exec": [],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"id": "9fe0ff5e-c05b-4d5f-a1a9-6b999dc7486b",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{Auth_token}}"
+									}
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"queryString\": \"\",\n  \"rowsPerPage\": 10,\n  \"pageNumber\": 1,\n  \"total\": 0,\n  \"totalPages\": 0\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/api/products/get-loan-products"
+							},
+							"response": []
+						}
+					],
+					"id": "5f827ae8-0601-447d-9fea-3d34da2ab5ab"
+				},
+				{
+					"name": "Search Loans",
+					"item": [
+						{
+							"name": "Search Loans",
+							"id": "f4993eff-9806-45d2-8c0c-607ffbc6e05d",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{Auth_token}}"
+									}
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"PageNumber\": 1,\n    \"RowsPerPage\": 10,\n    \"Total\": 13,\n    \"TotalPages\": 0,\n    \"Amount\": 0,\n    \"Duration\": 0,\n    \"Providers\": [],\n    \"SearchRequestQuery\": \"\",\n    \"SortBy\": 1,\n    \"OrderIn\": 1,\n    \"CategoryId\": \"082d28f7-0f23-4336-9bf8-2508a2674d02\",\n    \"IsWantToRemoveProviderCanTakeAppData\": true\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/api/loans/search"
+							},
+							"response": []
+						}
+					],
+					"id": "6e4895a3-c20a-4779-bbec-39d492ed9e13"
+				},
+				{
+					"name": "Get Loan",
+					"item": [
+						{
+							"name": "Get Loan",
+							"id": "9cbcac97-df33-4cb7-9343-830deb1024fc",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{Auth_token}}"
+									}
+								},
+								"method": "GET",
+								"header": [],
+								"url": "{{baseUrl}}/api/loans/getloan/{id}"
+							},
+							"response": []
+						},
+						{
+							"name": "Get Loan Copy",
+							"id": "78d22482-c85e-405b-96dc-596459604a49",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{Auth_token}}"
+									}
+								},
+								"method": "GET",
+								"header": [],
+								"url": "{{baseUrl}}/api/loans/getloan/4ffcfd3b-059e-4133-8ce6-3cd38465e3f3"
+							},
+							"response": []
+						}
+					],
+					"id": "4c1f7268-3df6-4bad-81a3-e5e2e4bdf317"
+				},
+				{
+					"name": "Get Product List",
+					"item": [
+						{
+							"name": "Get Product List",
+							"id": "22c29f21-a2e6-4457-bb3e-1769f2a0954e",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{Auth_token}}"
+									}
+								},
+								"method": "GET",
+								"header": [],
+								"url": "{{baseUrl}}/api/v2/ComparisonListing/get-product-list"
+							},
+							"response": []
+						}
+					],
+					"id": "1bf3d55e-8220-4dca-bb3e-57a2b84e0961"
+				},
+				{
+					"name": "Get Loans",
+					"item": [
+						{
+							"name": "Get Loanss",
+							"id": "583e562f-9f34-40fc-bbb5-f68c5dd769f5",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{Auth_token}}"
+									}
+								},
+								"method": "GET",
+								"header": [],
+								"url": "{{baseUrl}}/api/savings/getloans"
+							},
+							"response": []
+						}
+					],
+					"id": "e69f8eb4-8881-408e-af17-66fef545d470"
+				},
+				{
+					"name": "Get Saving Product",
+					"item": [
+						{
+							"name": "Get Saving Product",
+							"id": "6e969c13-241c-4fcb-b0e1-48831af217ba",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{Auth_token}}"
+									}
+								},
+								"method": "GET",
+								"header": [],
+								"url": "{{baseUrl}}/api/products/get-savings-product/02a5bbcb-2f86-48d4-a267-386c631543bb"
+							},
+							"response": []
+						},
+						{
+							"name": "Get Saving Product Copy",
+							"id": "c52f82e1-eedb-4ed1-a35b-33d0f3417728",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{Auth_token}}"
+									}
+								},
+								"method": "POST",
+								"header": [],
+								"url": "{{baseUrl}}/api/products/get-savings-products"
+							},
+							"response": []
+						}
+					],
+					"id": "441bd8e1-1b22-41cc-98b2-886d9d8b0cdc"
+				}
+			],
+			"id": "ce130b64-6360-4be5-91bf-719c87370c4e"
 		}
 	],
 	"event": [
