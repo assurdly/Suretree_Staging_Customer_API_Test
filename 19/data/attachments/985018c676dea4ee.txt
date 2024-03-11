@@ -1,0 +1,156 @@
+{
+    "Customer": {
+        "CampaignId": "",
+        "EmailAddress": "",
+        "CurrentSalary": "150000",
+        "IncomeInfoList": [
+            {
+                "IncomeTypeId": "3ead7992-c9fe-4e56-a453-11742ac5da7c",
+                "IncomeAmount": "50000"
+            }
+        ],
+        "ExpenditureInfoList": [],
+        "Designation": {
+            "DesignationId": "d3af950c-3ada-4616-af37-5e0e24d96f2e",
+            "DesignationName": "Accountant"
+        },
+        "IsLoanApplicationAccountSetup": false,
+        "CustomerId": "",
+        "FirstName": "ogochukwu",
+        "LastName": "Ogbuanu",
+        "PhoneNumber": "+2347037233647",
+        "HasBVN": true,
+        "BVNVerified": false,
+        "Gender": "female",
+        "LoanAmount": "1000",
+        "LoanDuration": "1",
+        "StateId": "075ed228-38bf-4ef5-a377-9909a683ea72",
+        "LocalGovernmentAreaId": "74BDE838-5358-402C-B492-E894E63A989A",
+        "AddressLine1": "11 Test Strt",
+        "StateOfResidenceText": " Edo ",
+        "LocalGovernmentOfResidenceText": " Etsako West ",
+        "BankAccountName": "Ogbuanu Ogochukwu Ifeoma",
+        "BankAccountNumber": "",
+        "BankVerificationNumber": "55556406522",
+        "Dob": "1991-11-01T00:00:00",
+        "Occupation": "Tester",
+        "CurrentEmployerName": "Assurdly Ltd",
+        "TotalMonthlyIncome": 200000,
+        "TotalMonthlyExpenses": "12,0000",
+        "IsCreditScoreChecked": false,
+        "EmploymentStatus": {
+            "EmploymentStatusId": "DC1C13D7-1406-41FA-A4A8-582871B57C6D",
+            "EmploymentStatusTitle": "Employed",
+            "EmploymentStatusView": null,
+            "DateCreated": "2023-01-17T00:00:00",
+            "GroupName": "FixedDeposit",
+            "BusinessLoanGuarantors": [],
+            "CustomerEmploymentDetails": [],
+            "CustomerEmploymentHistories": [],
+            "CustomerLoanApplicationRequests": []
+        },
+        "BankCode": "044",
+        "BankName": "Access Bank"
+    },
+    "Product": {
+        "ProductTypeName": null,
+        "ProductRequirements": [
+            {
+            "ProductId": "b59d02e4-a474-4e0e-964b-824b36fe92e6",
+            "RequirementId": "0BX19-278U0-BPU6M-K232L-I3WA1-0CP1Y",
+            "RequirementTitle": "Bank Account",
+            "RequirementDescription": null,
+            "ProductRequirementId": "4dfd2136-3a07-4d87-aeab-871e2cfaa377",
+            "ProductName": "Aella-Credit Quick Loan"
+            }
+        ],
+        "ProductCategories": [
+            {
+                "ProductId": "b59d02e4-a474-4e0e-964b-824b36fe92e6",
+                "ProductName": "Aella-Credit Quick Loan",
+                "ProductCategoryId": "613babee-d52a-4952-912a-f534dbbe9f2d",
+                "CategoryId": "082d28f7-0f23-4336-9bf8-2508a2674d02",
+                "CategoryName": "Quick Loans",
+                "CategoryDescription": "Get same day payment when you apply for quick loans online from select providers in Nigeria. Check interest rates and payback plans for same day loans",
+                "CategoryUrlSlug": "quick-loans"
+            }
+        ],
+        "ProductImages": [],
+        "ProductId": "b59d02e4-a474-4e0e-964b-824b36fe92e6",
+        "ProductDescription": "You deserve simple, straightforward products that actually work. Aella makes it super easy for anyone to borrow, invest, make payments and insure their healt",
+        "DateCreated": "2021-07-07T10:12:10.233",
+        "DateLastModified": "AAAAAAAApCY=",
+        "ProviderId": "978b9604-c2f1-4139-97a7-ad0b0ccb38d4",
+        "ProviderName": "Aella credit",
+        "ProviderDescription": "&lt;p&gt;Aella provides instant credit solutions that eliminates the hassle of standard loan applications and enables employee to borrow at competitive and fair rates through their employers.&lt;/p&gt",
+        "ProviderEmail": "sultan.ajayi@suretree.com",
+        "ProviderAddress": "Abisogun Rd, Maroko, Lagos",
+        "ProviderPhone": "09080296333",
+        "ProviderWebsite": "https://aellaapp.com/",
+        "ProductName": "Aella-Credit Quick Loan",
+        "ProductLoanId": "b59d02e4-a474-4e0e-964b-824b36fe92e6",
+        "MaxDuration": 3,
+        "MinDuration": 1,
+        "Rate": 4,
+        "MaxAmount": 1000000,
+        "MinAmount": 1500,
+        "MaxAge": 60,
+        "MinAge": 18,
+        "IsAnnualRateType": false,
+        "IsFixedRepayment": true,
+        "IsPublished": true,
+        "ProviderProductPageUrl": "https://web.aellaapp.com/?_branch_match_id=877133377629615107&utm_medium=marketing",
+        "ClassOfBusinessId": "2dfce049-93fe-4bc1-a46d-c55de7738d1b",
+        "ClassOfBusinessTitle": null,
+        "ClassOfBusinessDescription": null,
+        "FileSystemId": null,
+        "ProductSeoMetaTagTitle": "Aella credit - Aella-Credit Quick Loan",
+        "ProductSeoMetaTagUrlSlug": "undefined-aella-credit-quick-loan",
+        "ProductSeoMetaTagDescription": "you deserve simple, straightforward products that actually work. aella makes it super easy for anyone to borrow, invest, make payments and insure their healt",
+        "ProductSeoMetaTagKeywords": null,
+        "ProviderSeoMetaTagTitle": "Aella credit",
+        "ProviderSeoMetaTagUrlSlug": "aella-credit",
+        "ProviderSeoMetaTagDescription": "aella provides instant credit solutions that eliminates the hassle of standard loan applications and enables employee to borrow at competitive and fair rates through their employers.",
+        "ProviderSeoMetaTagKeywords": "",
+        "ProviderFileSystemId": "415b4c36-5f3d-48e1-affb-7b82ab6bdc88",
+        "IsProviderPublished": false,
+        "IsProviderBlacklisted": false,
+        "AverageCustomerRating": null,
+        "ProcessingTime": null,
+        "ProviderAddressMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.473202802971!2d3.382228214770379!3d6.461575095325468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b735ee3b061%3A0x44b72a8206377c93!2s23%20Alakoro%20Marina%20St%2C%20Lagos%20Island%2C%20Lagos!5e0!3m2!1sen!2sng!4v1613373125378!5m2!1sen!2sng\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0;\" allowfullscreen=\"\" aria-hidden=\"false\" tabindex=\"0\"></iframe>",
+        "NumberOfIncomeEarned": 1000,
+        "NumberOfExpenditureIncurred": 1000,
+        "ContentId": null,
+        "ContentTitle": null,
+        "ContentDescription": null,
+        "ContentBody": null,
+        "CommissionValue": 1,
+        "IsRate": true,
+        "CanTakeApplications": true,
+        "ProviderCanTakeApplications": true,
+        "ApplicationSignatureType": "Upload Signature",
+        "ApplicationType": null,
+        "ManagementFee": null
+    },
+    "SupportingDocuments": [
+        {
+            "RequirementId": "0BX19-278U0-BPU6M-K232L-I3WA1-0CP1Y",
+            "RequirementTitle": "Bank Account",
+            "FileSystemId": "308b9337-417e-48ad-896d-128e9e47287b",
+            "FileName": "7Cs-of-communication-1.png",
+            "CustomerApplicationId": "",
+            "IsUploaded": true,
+            "FileSystemName": "7Cs-of-communication-1.png"
+        }
+    ],
+    "ErrorLog": {
+        "CreditScore": {
+            "IsError": false,
+            "ErrorMessage": ""
+        }
+    },
+    "SavedApplicationId": "",
+    "CustomerDescription": "",
+    "additionaFields": {},
+    "SelectedCategory": "082d28f7-0f23-4336-9bf8-2508a2674d02"
+}

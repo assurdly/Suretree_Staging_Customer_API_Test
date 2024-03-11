@@ -1,0 +1,14 @@
+{
+    "PageNumber": 1,
+    "RowsPerPage": 10,
+    "Total": 13,
+    "TotalPages": 0,
+    "Amount": 0,
+    "Duration": 0,
+    "Providers": [],
+    "SearchRequestQuery": "",
+    "SortBy": 1,
+    "OrderIn": 1,
+    "CategoryId": "082d28f7-0f23-4336-9bf8-2508a2674d02",
+    "IsWantToRemoveProviderCanTakeAppData": true
+}

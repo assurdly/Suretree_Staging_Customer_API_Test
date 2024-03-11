@@ -1,0 +1,79 @@
+{
+    "businessLoanCollateral": [],
+    "businessLoanApplicationDetail": {
+        "purposeOfLoan": "Snail Farming",
+        "isCollateralAvailablle": "false",
+        "govtMeansOfIdentification": 13,
+        "isCacRegistered": "false",
+        "businessType": 22,
+        "registeredAddress": "67 gregory street",
+        "operatingAddressIsSame": "true",
+        "sector": 24,
+        "natureOfBusiness": "",
+        "businessTelephoneNo": "+2348056870989",
+        "emailAddress": "gregorysnail@yopmail.com",
+        "noOfEmployees": 48,
+        "averagemonthlyTurnover": "3000000",
+        "averageMonthlyExpenses": "500000",
+        "averageMonthlyPayroll": "350000",
+        "obtainAnyLoanIn3Years": "false",
+        "govtMeansOfIdentificationFileSystemId": "690f9684-28b1-4d62-933c-e645fc0cc4cb",
+        "registeredName": "",
+        "registrationNumber": "",
+        "registrationDate": ""
+    },
+    "businessLoanGuarantor": {
+        "title": 55,
+        "firstName": "Fidelix",
+        "lastName": "Nwagbara",
+        "phone": "+2348077098675",
+        "email": "fidelixnwagbara@yopmail.com"
+    },
+    "personalDetail": {
+        "title": "Mr",
+        "firstName": "Richard",
+        "lastName": "Adibe",
+        "gender": "male",
+        "dob": "1991-06-19T00:00:00",
+        "emailAddress": "adiberichard12@gmail.com",
+        "phoneNumber": "+2348066923517",
+        "maritalStatusId": 16,
+        "contactAddress1": "1",
+        "contactAddress2": "Ago Palace Way",
+        "residenceCountryId": "46909ea8-06cf-47a9-9cd5-dc8b169ed067",
+        "countryStateId": "075ed228-38bf-4ef5-a377-9909a683ea84",
+        "city": "Isolo                                             "
+    },
+    "businessLoanDirector": [],
+    "businessLoanShareholders": [],
+    "existingLoan": [],
+    "businessLoanBankAccount": [
+        {
+            "nameOfBank": "64dce321-a9df-45cc-84fa-4a0d07330b53",
+            "accountNumber": "0248219856",
+            "accountName": "Adibe Richard",
+            "isAuditedFinancialStatementAvailable": "false"
+        }
+    ],
+    "additionaFields": {},
+    "designationId": 9,
+    "bankVerificationNumber": "",
+    "signatureType": "Confirmation Checkbox",
+    "productId": "34d95c39-1580-4ea2-8ddb-a39c9c1e257a",
+    "providerId": "d0998724-15c1-4991-99cd-dadf408c735b",
+    "additionalAppDetails": "{\"productName\":\"Direct Bridge Business Loan\",\"productSeoMetaTagUrlSlug\":\"direct-bridge-business-loan\",\"providerName\":\"Direct Bridge\",\"providerSeoMetaTagUrlSlug\":\"direct-bridge\",\"categorySlug\":\"sole-trader-business-loans\",\"categoryId\":\"701C71A6-FFED-49C2-9DE0-2FE125C14E45\",\"minAmount\":100000,\"maxAmount\":3000000,\"minDuration\":3,\"maxDuration\":6,\"rate\":7,\"providerFileSystemID\":\"bda8532a-a383-4727-a0b0-d009f134fdf0\",\"savedSavingsApplicationId\":\"\",\"repaymentFrequency\":\"Monthly\"}",
+    "LoanAmount": 100000,
+    "Duration": 3,
+    "signatureValue": true,
+    "otherDesignation": "",
+    "loanAmount": 100000,
+    "duration": 3,
+    "SupportingDocuments": {
+        "utilityBillFileSystemId": "a6311dff-96e8-45fb-8a11-600efaac152e",
+        "boardResolutionFileSystemId": "1f8998b2-46ec-4530-b43d-0b2c42b1e0b8",
+        "companyProfileFileSystemId": "40513e46-7fd8-4002-a2c2-5cfdbbdd235e",
+        "cashflowForecastFileSystemId": "0f4f2338-d0ed-4cd3-9f44-90c238192edf",
+        "twelveMonthsBankStatementFileSystemId": "cc2b6f1f-9c2f-4550-b196-9fd72f00a0d9",
+        "collateralUploadFileSystemId": "eb153eb9-fd88-47bb-9144-81028bffdf9a"
+    }
+}

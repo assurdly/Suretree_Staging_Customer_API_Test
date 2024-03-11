@@ -1,0 +1,12 @@
+{
+"FromDateCreated": null,
+"LoanStatus": "All",
+"PageNumber": 1,
+"RowsPerPage": 999999999,
+"SearchText": "",
+"SortBy": "DateCreated",
+"SortOrder": "desc",
+"ToDateCreated": null
+}
+
+
