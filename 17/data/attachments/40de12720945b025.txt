@@ -1,0 +1,1 @@
+{"isSuccess":false,"message":"The BankCode field is required.","data":null,"errors":["The BankCode field is required."],"statusCode":0}

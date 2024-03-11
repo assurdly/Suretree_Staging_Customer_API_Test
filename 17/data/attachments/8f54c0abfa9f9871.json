@@ -1,0 +1,8 @@
+{
+    "Transfer-Encoding": "chunked",
+    "Server": "Microsoft-IIS/10.0",
+    "Strict-Transport-Security": "max-age=2592000",
+    "WWW-Authenticate": "Bearer",
+    "X-Powered-By": "ASP.NET",
+    "Date": "Mon, 11 Mar 2024 11:10:34 GMT"
+}
