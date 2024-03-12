@@ -14291,7 +14291,7 @@
 							"response": []
 						},
 						{
-							"name": "Get Loan",
+							"name": "Get Loan - Non-existing ID",
 							"id": "9cbcac97-df33-4cb7-9343-830deb1024fc",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -14327,7 +14327,7 @@
 							"response": []
 						},
 						{
-							"name": "Get Loan Copy",
+							"name": "Get Loan - ID blank",
 							"id": "f814a66c-38d6-4de3-8bdc-e7026d2f22cb",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -14433,7 +14433,24 @@
 								},
 								"method": "GET",
 								"header": [],
-								"url": "{{baseUrl}}/api/products/get-savings-product/02a5bbcb-2f86-48d4-a267-386c631543bb"
+								"url": {
+									"raw": "{{baseUrl}}/api/products/get-savings-product/?id=02a5bbcb-2f86-48d4-a267-386c631543bb",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"products",
+										"get-savings-product",
+										""
+									],
+									"query": [
+										{
+											"key": "id",
+											"value": "02a5bbcb-2f86-48d4-a267-386c631543bb"
+										}
+									]
+								}
 							},
 							"response": []
 						},
