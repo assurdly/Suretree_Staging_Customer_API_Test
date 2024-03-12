@@ -1,0 +1,1 @@
+{"Details":null,"SuccessMessage":null,"ErrorMessage":"An error occurred while reading a database value for property \u0027ProductView.InterestType\u0027. The expected type was \u0027System.Int32\u0027 but the actual value was null.","ResponseCode":0,"Total":0,"TotalPages":0,"RowsPerPage":0,"PageItemsCount":0,"PageNumber":0,"QueryString":"","List":null}
