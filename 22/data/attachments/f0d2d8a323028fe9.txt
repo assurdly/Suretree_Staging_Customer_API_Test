@@ -1,0 +1,27 @@
+{
+
+    "pageNumberParam": 1,
+
+    "rowsPerPageParam": "5",
+
+    "startDate": null,
+
+    "endDate": null,
+
+    "customerId": "fedbfbfd-6178-4178-b022-2331631d3a23",
+
+    "categoryUrlSlug": [
+
+        "personal-savings-account",
+
+        "children-savings-account",
+
+        "fixed-deposit-account"
+
+    ],
+
+    "TotalPages": 1,
+
+    "Total": 1
+
+}

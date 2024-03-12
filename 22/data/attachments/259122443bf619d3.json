@@ -1,0 +1,8 @@
+{
+    "Transfer-Encoding": "chunked",
+    "Server": "Microsoft-IIS/10.0",
+    "Strict-Transport-Security": "max-age=2592000",
+    "WWW-Authenticate": "Bearer error=\"invalid_token\", error_description=\"The signature is invalid\"",
+    "X-Powered-By": "ASP.NET",
+    "Date": "Tue, 12 Mar 2024 03:42:00 GMT"
+}
