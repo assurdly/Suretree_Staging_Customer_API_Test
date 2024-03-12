@@ -14059,312 +14059,312 @@
 			"id": "0b71541a-c36f-47d7-8eb6-d87d9463900e"
 		},
 		{
-			"name": "Customer Copy",
+			"name": "Get Loan Product",
 			"item": [
 				{
 					"name": "Get Loan Product",
-					"item": [
+					"event": [
 						{
-							"name": "Get Loan Product",
-							"event": [
-								{
-									"listen": "test",
-									"script": {
-										"id": "c8ecfdc9-f005-4c1d-a4f8-4bb53290ad98",
-										"exec": [
-											"pm.test(\"Status code is 200\", function () {",
-											"    pm.response.to.have.status(200);",
-											"});",
-											"",
-											"pm.test(\"Status code name has string\", function () {",
-											"    pm.response.to.have.status(\"OK\");",
-											"});",
-											"pm.test(\"Your test successMessage\", function () {",
-											"    var jsonData = pm.response.json();",
-											"    pm.expect(jsonData.SuccessMessage).to.eql(null);",
-											"});",
-											"",
-											"pm.test(\"Your test errorMessage\", function () {",
-											"    var jsonData = pm.response.json();",
-											"    pm.expect(jsonData.ErrorMessage).to.eql(null);",
-											"});",
-											"",
-											"pm.test(\"Your test responseCode\", function () {",
-											"    var jsonData = pm.response.json();",
-											"    pm.expect(jsonData.ResponseCode).to.eql(200);",
-											"});"
-										],
-										"type": "text/javascript"
-									}
-								},
-								{
-									"listen": "prerequest",
-									"script": {
-										"id": "3806735b-918d-432f-8b9c-a01d6b2b25ad",
-										"exec": [
-											""
-										],
-										"type": "text/javascript"
-									}
-								}
-							],
-							"id": "10018575-54e4-45e5-9d81-b1b0edcc454b",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "{{Auth_token}}"
-									}
-								},
-								"method": "POST",
-								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n  \"queryString\": \"Fresh Kill\",\n  \"rowsPerPage\": 10,\n  \"pageNumber\": 1,\n  \"total\": 0,\n  \"totalPages\": 0\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": "{{baseUrl}}/api/products/get-loan-products"
-							},
-							"response": []
+							"listen": "test",
+							"script": {
+								"id": "c8ecfdc9-f005-4c1d-a4f8-4bb53290ad98",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Status code name has string\", function () {",
+									"    pm.response.to.have.status(\"OK\");",
+									"});",
+									"pm.test(\"Your test successMessage\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData.SuccessMessage).to.eql(null);",
+									"});",
+									"",
+									"pm.test(\"Your test errorMessage\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData.ErrorMessage).to.eql(null);",
+									"});",
+									"",
+									"pm.test(\"Your test responseCode\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData.ResponseCode).to.eql(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "3806735b-918d-432f-8b9c-a01d6b2b25ad",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
 						}
 					],
-					"id": "5f827ae8-0601-447d-9fea-3d34da2ab5ab"
-				},
+					"id": "10018575-54e4-45e5-9d81-b1b0edcc454b",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{Auth_token}}"
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"queryString\": \"Fresh Kill\",\n  \"rowsPerPage\": 10,\n  \"pageNumber\": 1,\n  \"total\": 0,\n  \"totalPages\": 0\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{baseUrl}}/api/products/get-loan-products"
+					},
+					"response": []
+				}
+			],
+			"id": "5f827ae8-0601-447d-9fea-3d34da2ab5ab"
+		},
+		{
+			"name": "Search Loans",
+			"item": [
 				{
 					"name": "Search Loans",
-					"item": [
+					"event": [
 						{
-							"name": "Search Loans",
-							"event": [
-								{
-									"listen": "test",
-									"script": {
-										"id": "cc2f3ef9-2872-4c80-86bd-d32797411591",
-										"exec": [
-											"pm.test(\"Status code is 200\", function () {",
-											"    pm.response.to.have.status(200);",
-											"});",
-											"",
-											"pm.test(\"Status code name has string\", function () {",
-											"    pm.response.to.have.status(\"OK\");",
-											"});",
-											"pm.test(\"Your test successMessage\", function () {",
-											"    var jsonData = pm.response.json();",
-											"    pm.expect(jsonData.SuccessMessage).to.eql(null);",
-											"});",
-											"",
-											"pm.test(\"Your test errorMessage\", function () {",
-											"    var jsonData = pm.response.json();",
-											"    pm.expect(jsonData.ErrorMessage).to.eql(null);",
-											"});",
-											"",
-											"pm.test(\"Your test responseCode\", function () {",
-											"    var jsonData = pm.response.json();",
-											"    pm.expect(jsonData.ResponseCode).to.eql(200);",
-											"});"
-										],
-										"type": "text/javascript"
-									}
-								},
-								{
-									"listen": "prerequest",
-									"script": {
-										"id": "bb6ebe94-e4f9-4ac0-bc6b-c812cfdbfcac",
-										"exec": [],
-										"type": "text/javascript"
-									}
-								}
-							],
-							"id": "f4993eff-9806-45d2-8c0c-607ffbc6e05d",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "{{Auth_token}}"
-									}
-								},
-								"method": "POST",
-								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"PageNumber\": 1,\n    \"RowsPerPage\": 10,\n    \"Total\": 13,\n    \"TotalPages\": 0,\n    \"Amount\": 0,\n    \"Duration\": 0,\n    \"Providers\": [],\n    \"SearchRequestQuery\": \"\",\n    \"SortBy\": 1,\n    \"OrderIn\": 1,\n    \"CategoryId\": \"082d28f7-0f23-4336-9bf8-2508a2674d02\",\n    \"IsWantToRemoveProviderCanTakeAppData\": true\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": "{{baseUrl}}/api/loans/search"
-							},
-							"response": []
+							"listen": "test",
+							"script": {
+								"id": "cc2f3ef9-2872-4c80-86bd-d32797411591",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Status code name has string\", function () {",
+									"    pm.response.to.have.status(\"OK\");",
+									"});",
+									"pm.test(\"Your test successMessage\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData.SuccessMessage).to.eql(null);",
+									"});",
+									"",
+									"pm.test(\"Your test errorMessage\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData.ErrorMessage).to.eql(null);",
+									"});",
+									"",
+									"pm.test(\"Your test responseCode\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData.ResponseCode).to.eql(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "bb6ebe94-e4f9-4ac0-bc6b-c812cfdbfcac",
+								"exec": [],
+								"type": "text/javascript"
+							}
 						}
 					],
-					"id": "6e4895a3-c20a-4779-bbec-39d492ed9e13"
-				},
+					"id": "f4993eff-9806-45d2-8c0c-607ffbc6e05d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{Auth_token}}"
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"PageNumber\": 1,\n    \"RowsPerPage\": 10,\n    \"Total\": 13,\n    \"TotalPages\": 0,\n    \"Amount\": 0,\n    \"Duration\": 0,\n    \"Providers\": [],\n    \"SearchRequestQuery\": \"\",\n    \"SortBy\": 1,\n    \"OrderIn\": 1,\n    \"CategoryId\": \"082d28f7-0f23-4336-9bf8-2508a2674d02\",\n    \"IsWantToRemoveProviderCanTakeAppData\": true\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{baseUrl}}/api/loans/search"
+					},
+					"response": []
+				}
+			],
+			"id": "6e4895a3-c20a-4779-bbec-39d492ed9e13"
+		},
+		{
+			"name": "Get Loan",
+			"item": [
 				{
 					"name": "Get Loan",
-					"item": [
+					"event": [
 						{
-							"name": "Get Loan",
-							"event": [
-								{
-									"listen": "test",
-									"script": {
-										"id": "d32fe42a-8e8d-4c3e-acbd-512898c7df46",
-										"exec": [
-											"pm.test(\"Status code is 200\", function () {",
-											"    pm.response.to.have.status(200);",
-											"});",
-											"",
-											"pm.test(\"Status code name has string\", function () {",
-											"    pm.response.to.have.status(\"OK\");",
-											"});",
-											"pm.test(\"Your test successMessage\", function () {",
-											"    var jsonData = pm.response.json();",
-											"    pm.expect(jsonData.SuccessMessage).to.eql(\"Saved successfully.\");",
-											"});",
-											"",
-											"pm.test(\"Your test errorMessage\", function () {",
-											"    var jsonData = pm.response.json();",
-											"    pm.expect(jsonData.ErrorMessage).to.eql(null);",
-											"});",
-											"",
-											"pm.test(\"Your test responseCode\", function () {",
-											"    var jsonData = pm.response.json();",
-											"    pm.expect(jsonData.ResponseCode).to.eql(200);",
-											"});"
-										],
-										"type": "text/javascript"
-									}
-								},
-								{
-									"listen": "prerequest",
-									"script": {
-										"id": "f1d8fa9b-9f0f-48b8-8e1b-e56a65b485eb",
-										"exec": [],
-										"type": "text/javascript"
-									}
-								}
-							],
-							"id": "78d22482-c85e-405b-96dc-596459604a49",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "{{Auth_token}}"
-									}
-								},
-								"method": "GET",
-								"header": [],
-								"url": {
-									"raw": "{{baseUrl}}/api/loans/getloan/?id=4c63dd4d-ec87-4e51-8c79-0ab57eb70e14",
-									"host": [
-										"{{baseUrl}}"
-									],
-									"path": [
-										"api",
-										"loans",
-										"getloan",
-										""
-									],
-									"query": [
-										{
-											"key": "id",
-											"value": "4c63dd4d-ec87-4e51-8c79-0ab57eb70e14"
-										}
-									]
-								}
-							},
-							"response": []
+							"listen": "test",
+							"script": {
+								"id": "d32fe42a-8e8d-4c3e-acbd-512898c7df46",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Status code name has string\", function () {",
+									"    pm.response.to.have.status(\"OK\");",
+									"});",
+									"pm.test(\"Your test successMessage\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData.SuccessMessage).to.eql(\"Saved successfully.\");",
+									"});",
+									"",
+									"pm.test(\"Your test errorMessage\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData.ErrorMessage).to.eql(null);",
+									"});",
+									"",
+									"pm.test(\"Your test responseCode\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData.ResponseCode).to.eql(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
 						},
 						{
-							"name": "Get Loan - Non-existing ID",
-							"id": "9cbcac97-df33-4cb7-9343-830deb1024fc",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "{{Auth_token}}"
-									}
-								},
-								"method": "GET",
-								"header": [],
-								"url": {
-									"raw": "{{baseUrl}}/api/loans/getloan/?id=4c63dd4d-ec87-4e51-8c79-0ab57eb70e10",
-									"host": [
-										"{{baseUrl}}"
-									],
-									"path": [
-										"api",
-										"loans",
-										"getloan",
-										""
-									],
-									"query": [
-										{
-											"key": "id",
-											"value": "4c63dd4d-ec87-4e51-8c79-0ab57eb70e10"
-										}
-									]
-								}
-							},
-							"response": []
-						},
-						{
-							"name": "Get Loan - ID blank",
-							"id": "f814a66c-38d6-4de3-8bdc-e7026d2f22cb",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "{{Auth_token}}"
-									}
-								},
-								"method": "GET",
-								"header": [],
-								"url": {
-									"raw": "{{baseUrl}}/api/loans/getloan/?id=",
-									"host": [
-										"{{baseUrl}}"
-									],
-									"path": [
-										"api",
-										"loans",
-										"getloan",
-										""
-									],
-									"query": [
-										{
-											"key": "id",
-											"value": ""
-										}
-									]
-								}
-							},
-							"response": []
+							"listen": "prerequest",
+							"script": {
+								"id": "f1d8fa9b-9f0f-48b8-8e1b-e56a65b485eb",
+								"exec": [],
+								"type": "text/javascript"
+							}
 						}
 					],
-					"id": "4c1f7268-3df6-4bad-81a3-e5e2e4bdf317"
+					"id": "78d22482-c85e-405b-96dc-596459604a49",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{Auth_token}}"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/loans/getloan/?id=4c63dd4d-ec87-4e51-8c79-0ab57eb70e14",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"loans",
+								"getloan",
+								""
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "4c63dd4d-ec87-4e51-8c79-0ab57eb70e14"
+								}
+							]
+						}
+					},
+					"response": []
 				},
+				{
+					"name": "Get Loan - Non-existing ID",
+					"id": "9cbcac97-df33-4cb7-9343-830deb1024fc",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{Auth_token}}"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/loans/getloan/?id=4c63dd4d-ec87-4e51-8c79-0ab57eb70e10",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"loans",
+								"getloan",
+								""
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "4c63dd4d-ec87-4e51-8c79-0ab57eb70e10"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Loan - ID blank",
+					"id": "f814a66c-38d6-4de3-8bdc-e7026d2f22cb",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{Auth_token}}"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/loans/getloan/?id=",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"loans",
+								"getloan",
+								""
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "4c1f7268-3df6-4bad-81a3-e5e2e4bdf317"
+		},
+		{
+			"name": "Customer Copy",
+			"item": [
 				{
 					"name": "Get Product List",
 					"item": [
