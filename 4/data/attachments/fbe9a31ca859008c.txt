@@ -1,1 +1,0 @@
-{"isSuccess":true,"message":"OTP is validated successfully","data":true,"errors":[],"statusCode":200}

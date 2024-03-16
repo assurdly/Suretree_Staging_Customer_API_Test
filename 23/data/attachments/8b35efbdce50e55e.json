@@ -1,0 +1,10 @@
+{
+    "Authorization": "Bearer +2347037233647",
+    "User-Agent": "PostmanRuntime/7.37.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "5a15a5f2-e145-46d7-89f6-e29ef7ff0e1e",
+    "Host": "qa-api.nairacompare.ng",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive"
+}

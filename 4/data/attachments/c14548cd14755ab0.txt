@@ -1,1 +1,0 @@
-{"isSuccess":false,"message":null,"data":null,"errors":["Oops, something went wrong.","No application found for AllApplication by Id: "],"statusCode":500}

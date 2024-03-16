@@ -1,1 +1,0 @@
-{"SuccessMessage":null,"ErrorMessage":"An error occurred while updating the entries. See the inner exception for details.","ResponseCode":500,"Total":0,"TotalPages":0,"RowsPerPage":0,"PageItemsCount":0,"PageNumber":0,"QueryString":"","List":null,"Details":null}
