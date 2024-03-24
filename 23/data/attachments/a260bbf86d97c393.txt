@@ -1,0 +1,1 @@
+{"details":null,"successMessage":null,"errorMessage":"Object reference not set to an instance of an object.","responseCode":500,"total":0,"totalPages":0,"rowsPerPage":0,"pageItemsCount":0,"pageNumber":0,"queryString":"","list":null}

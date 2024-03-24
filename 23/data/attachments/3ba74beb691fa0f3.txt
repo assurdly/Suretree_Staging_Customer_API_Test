@@ -1,0 +1,1 @@
+{"message":"Invalid BVN!","data":null,"code":400,"success":false}
